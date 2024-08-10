@@ -2,6 +2,16 @@
 import { initializeApp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-app.js";
 import { getFirestore, collection, addDoc, serverTimestamp } from "https://www.gstatic.com/firebasejs/10.12.2/firebase-firestore.js";
 
+const firebaseConfig = {
+    apiKey: "AIzaSyAf2eogESiqVG8rWBWYsWnMPXcyGarQ9ic",
+    authDomain: "thefabrickshop-64b7d.firebaseapp.com",
+    projectId: "thefabrickshop-64b7d",
+    storageBucket: "thefabrickshop-64b7d.appspot.com",
+    messagingSenderId: "953617400127",
+    appId: "1:953617400127:web:a19d6361165b5bca0dd38a",
+    measurementId: "G-G5JXXDC4DF"
+  };
+
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
 const db = getFirestore(app);
